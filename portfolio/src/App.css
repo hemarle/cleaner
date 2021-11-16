@@ -1,0 +1,8 @@
+:root {
+  --red: #ff6464;
+  --deep-blue: #142850;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+}

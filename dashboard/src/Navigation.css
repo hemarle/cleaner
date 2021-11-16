@@ -1,0 +1,25 @@
+.navigation{
+    /* display: flex; */
+    flex-direction: column;
+}
+.navigation__Header{
+    display: flex;
+    margin: 70px 140px 147px 30px;
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+.navigation__Body{
+
+}
+.navigation__Link{
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    
+    font-size: 16px;
+    color: #6F6C99;
+
+}
+.navigation__Link img{
+    margin-right: 23px;
+}

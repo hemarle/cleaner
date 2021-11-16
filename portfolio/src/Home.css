@@ -1,0 +1,32 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  margin: 3vh 0px;
+}
+.home__Image {
+  width: 180px;
+  border-radius: 50%;
+  margin-inline: auto;
+}
+.home__Name,
+.home__Role {
+  text-align: center;
+  line-height: 38px;
+}
+.home__About {
+  margin: 2vh 0px;
+  text-align: justify;
+  padding-inline: 20px;
+  letter-spacing: 0.11px;
+}
+
+.home__Button {
+  width: 208px;
+  height: 47px;
+  display: block;
+  margin: 5vh auto;
+  background-color: var(--red);
+  color: white;
+  outline: none;
+  border: none;
+}

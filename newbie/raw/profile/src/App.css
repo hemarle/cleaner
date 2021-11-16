@@ -1,0 +1,68 @@
+:root{
+  --cyan:hsl(185, 75%, 39%);
+  --dark-blue:hsl(229, 23%, 23%);
+  --gray-blue:hsl(227, 10%, 46%);
+}
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background:var(--cyan);
+  padding: 0px 10vw;
+}
+.app__Top{
+  position: absolute;
+  top: -50%;
+  left: 10%;
+  transform: translate(-50%);
+}
+.app__Bottom{ 
+  position: absolute;
+  bottom:-100%;
+  right:   -10%;
+  transform: translate(0%);
+  overflow: hidden;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.app__Card >div>img{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+.app__Card{
+  
+  border-radius: 15px;
+  background-color: white;
+ }
+ .app__Card >img{
+  border: 5px solid rgb(8, 0, 0);
+border-radius: 50%;
+display: block;
+margin-inline: auto;
+margin-top: -50px;
+z-index:1;
+ }
+
+ .app__Card> h2{
+   text-align: center;
+   margin:10px 0px
+ }
+ .app__Card >p {
+   text-align: center;
+   margin:10px 0px 20px 0px
+ }
+ .app__Others{
+   display: flex;
+   justify-content: space-around;
+ text-align: center;
+ border-top: 1px solid gray;
+padding: 20px;
+}
+
+ .app__Others h2{
+   
+ }

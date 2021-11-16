@@ -1,0 +1,82 @@
+:root{
+  --violet: hsl(257, 40%, 49%);
+  --magenta: hsl(300, 69%, 71%);
+}
+.app{
+  min-height: 100vh;
+  background-color: var(--violet);
+  padding: 1.2rem 3.5rem;
+  color: white;
+  z-index: 2;
+
+}
+.app__Title{
+  margin-bottom: 20px;;
+}
+.app__Image img{
+max-width: 100%;
+height: auto;
+z-index: 2;
+
+}
+.app__Image{
+  margin-bottom: 40px;
+ 
+}
+ span{
+    z-index:  1;
+    content: '';
+    height: 100%;
+    width: 100vw;
+    top: -10%;
+    left: 0%;
+    transform: translate(0 20%);
+    /* right: 0%;
+    bottom: 0%; */
+    position: absolute;
+  background: url('./images/bg-mobile.svg');
+background-repeat: no-repeat;  
+}
+h2{
+  margin-left: 1rem;
+  font-size: 15px;
+}
+p{
+  margin:20px 0px ;
+  text-align:center;
+}
+button{
+  width: 150px;
+  height: 30px;
+  border-radius: 30px;
+  border:none;
+  display: block;
+margin-inline:auto ;
+}
+
+@media screen and (min-width:700px) {
+  .app{
+    padding-top: 7vh;
+  }
+  .app__Body{
+  display: flex;
+  align-items: center;
+  margin-top: 10vh;
+}  
+.app__Content{
+ margin-left: 5vw; 
+}
+h2{
+  margin: 0;
+}
+p{
+  text-align: left;
+}
+button{
+  margin: 0;
+}
+
+
+}
+
+

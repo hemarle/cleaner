@@ -1,0 +1,18 @@
+nav {
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 20px;
+}
+.nav__Content {
+  display: flex;
+  flex-direction: column;
+}
+.nav__Option {
+  margin-top: 20px;
+}
+
+.remove {
+  display: none;
+}
