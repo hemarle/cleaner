@@ -1,0 +1,54 @@
+.history{
+    width: 300px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    right: 45px;
+
+}
+.history__Header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+.history__Header h2{
+    color:  #B1AFCD;
+}
+.history__Header button{
+    color:  #70B2FF;  
+    background-color: transparent; 
+    border: none;
+    outline: none;
+}
+
+.history__Card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.history__Image{
+    width: 30px;
+    height: auto;
+}
+.history__Card img{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 50%;
+}
+.history__Name{
+    font-size: 12px;
+    color: #7877B1;
+
+}
+.history__Date{
+    font-size: 11px;
+    color: #59588D;
+
+}
+.history__Change{
+    color: #50E3C2;
+}
