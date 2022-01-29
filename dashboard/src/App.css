@@ -1,6 +1,6 @@
 .app{
   display: flex;
-  min-height: 140vh;
+  min-height: 1024px;
   position: relative;
 }
 .app__Left{

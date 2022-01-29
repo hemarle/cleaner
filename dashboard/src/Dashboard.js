@@ -5,13 +5,11 @@ import eth from './images/ETH.png'
 import lite from './images/Litecoin.png'
 import graph from './images/Graph.png'
 import Notification from './Notification'
+import Header from './Header'
 function Dashboard() {
     return (
         <div className='dashboard'>
-            <div className='dashboard__Header'>
-                <h1>Dashboard</h1>
-                <p>With all of the styling tool options available in today’s market</p>
-            </div>
+           <Header title='Dashboard' about='With all of the styling tool options available in today’s market'/>
             <div className='dashboard__Wallet'>
                 <h3>WALLETS</h3>
 
@@ -24,7 +22,7 @@ function Dashboard() {
                                 <span className='dashboard__CryptoName'>BTC</span>
                             </p>
                             <div className='dashboard__CryptoChange'><img src={graph}/>
-                                <p className='dashboard__CryptoPercentage'>2.376%</p>
+                                <p className='dashboard__CryptoPercentage'>+ 12.5%</p>
                             </div>
                         </div>
                     </div>
@@ -32,11 +30,11 @@ function Dashboard() {
                         <img src={eth}/>
                         <div className='dashboard__CardRight'>
                             <p className='dashboard__CryptoPrice'>
-                                1.9678
-                                <span className='dashboard__CryptoName'>BTC</span>
+                               23.234
+                                <span className='dashboard__CryptoName'>ETH</span>
                             </p>
                             <div className='dashboard__CryptoChange'><img src={graph}/>
-                                <p className='dashboard__CryptoPercentage'>2.376%</p>
+                                <p className='dashboard__CryptoPercentage'>- 5.23%</p>
                             </div>
                         </div>
                     </div>
@@ -44,11 +42,11 @@ function Dashboard() {
                         <img src={lite}/>
                         <div className='dashboard__CardRight'>
                             <p className='dashboard__CryptoPrice'>
-                                1.9678
-                                <span className='dashboard__CryptoName'>BTC</span>
+                               380.234
+                                <span className='dashboard__CryptoName'>LTC</span>
                             </p>
                             <div className='dashboard__CryptoChange'><img src={graph}/>
-                                <p className='dashboard__CryptoPercentage'>2.376%</p>
+                                <p className='dashboard__CryptoPercentage'>+ 39.69%</p>
                             </div>
                         </div>
                     </div>

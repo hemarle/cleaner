@@ -8,17 +8,24 @@
     font-size: 1.2rem;
     color: aliceblue;
 }
-.navigation__Body{
 
-}
 .navigation__Link{
     display: flex;
+    align-items: center;
     margin-left: 50px;
     margin-bottom: 40px;
-    
+cursor: pointer;    
     font-size: 16px;
     color: #6F6C99;
+    
 
+}
+.navigation__Link:hover{
+    background-color: white;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 50px;
+    height: 50px;
 }
 .navigation__Link img{
     margin-right: 23px;

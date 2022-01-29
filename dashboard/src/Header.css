@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+align-items: flex-start;
+    margin-right: 3vw;
+}
+.header__Right{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.header__Right img{
+    width: 31px ;
+    height: 31px;
+margin-left: 20px;
+}
+.header__Avatar{
+    width: 28px;
+    height: 28px;
+
+}
+.header__BellIcon{
+    width: 10px !important;
+    height: 12px !important;
+    margin-right: 3px;
+    margin-left: 0px !important;
+}
+/* .header__Down{
+    width: 5px !important; 
+    height: 7px !important;
+} */
+.header__Title h1{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 6px;
+}
+.header__Title p{
+    font-size: 13px;
+    color:  #5B5A99;
+
+    margin-bottom: 26px;
+    margin-left: 3px;
+}
+
+.header__Bell{
+    display: flex;
+align-items: center;
+justify-content: center;
+width: 48px;
+height: 28px;
+border-radius: 14px;
+background: linear-gradient(136.67deg, #FF409A 8.34%, #C438EF 95.26%);
+margin-left: 10px;
+font-size: 12px;
+color: white;
+}
