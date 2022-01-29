@@ -31,3 +31,20 @@
 .hero__Image {
   margin-top: 40px;
 }
+
+@media screen and (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    text-align: left;
+    padding-inline: 50px;
+  }
+  .hero__Content {
+    flex: 0.5;
+  }
+  .hero__About {
+    justify-content: flex-start;
+  }
+  .hero__Image {
+    flex: 0.5;
+  }
+}
