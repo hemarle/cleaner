@@ -1,9 +1,12 @@
 import './App.css';
+import Landing from './Landing';
 
 
 function App() {
     return (
-        <div className="app"></div>
+        <div className="app">
+            <Landing/>
+        </div>
     );
 }
 
