@@ -16,7 +16,8 @@ function Hero({
                 {about}
                 <span>
                     <img src={icon}
-                        alt=""/></span>
+                        alt=""
+                        className='hero__Icon'/></span>
             </p>
             <a href={link}
                 className="hero__Link">
