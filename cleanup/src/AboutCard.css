@@ -1,0 +1,8 @@
+.aboutCard {
+  width: 150px;
+  height: 200px;
+  border-radius: 30px;
+}
+.aboutCard p {
+  text-align: center;
+}
