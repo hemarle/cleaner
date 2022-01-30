@@ -1,0 +1,33 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+.about__LeftTitle {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.about__LeftTitle span {
+  margin-left: 5px;
+  color: var(--red);
+}
+.about__Cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.about__Cards .aboutCard {
+  margin: 20px 10px 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .about__Left {
+    flex: 0.5;
+  }
+  .about__Right {
+    flex: 0.5;
+  }
+
+  .about__Cards .aboutCard:nth-child(even) {
+    margin-top: 40px;
+  }
+}
