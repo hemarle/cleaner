@@ -3,8 +3,12 @@ import './Ceo.css'
 function Ceo({image, title, about}) {
     return <div className='ceo'>
         <div className="ceo__Left">
-            <img src={image}
-                alt=""/>
+            <div className="ceo__LeftImage">
+
+                <img src={image}
+                    alt=""/>
+                <div className="offset-circle"></div>
+            </div>
         </div>
 
         <div className="ceo__Right">
