@@ -36,3 +36,20 @@
     margin-top: 40px;
   }
 }
+
+@media screen and (min-width: 1000px) {
+  .about {
+    flex-direction: row;
+  }
+  .about__LeftTitle {
+    font-size: 85px;
+    line-height: 1;
+  }
+  .about__RightSummary {
+    font-size: 30px;
+  }
+  .about__Cards {
+    max-width: 400px;
+    margin-inline: auto;
+  }
+}
