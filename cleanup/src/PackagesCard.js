@@ -1,5 +1,6 @@
 import React from 'react';
 import './PackagesCard.css'
+import markIcon from './images/mark.svg'
 function PackagesCard({
     title,
     about,
@@ -14,8 +15,9 @@ function PackagesCard({
             {about} </h4>
         <ul className="packagesCard__Options">
             {
-            options.map(option => <li className="packagesCard__Option">
-                <img src="" alt=""/>
+            options ?. map(option => <li className="packagesCard__Option">
+                <img src={markIcon}
+                    alt=""/>
                 <p> {option}</p>
             </li>)
         } </ul>
